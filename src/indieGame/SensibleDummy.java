@@ -9,16 +9,11 @@ package indieGame;
  *
  * @author UserPL022Pc11
  */
-public class Player extends SensibleDummy{
-    int fatigue, atack, defense;
-    
-    char[] faceTo = {'N','S','E','W'};
-     
-    public void pass(){
-        
+public abstract class SensibleDummy {
+    String nome, cor;
+ 
+    public void move(int x,int y) {
     }
     
-    public void shoot(){
-        
-    }
+    
 }

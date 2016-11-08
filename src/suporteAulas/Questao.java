@@ -3,22 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package indieGame;
+package suporteAulas;
 
 /**
  *
  * @author UserPL022Pc11
  */
-public class Player extends SensibleDummy{
-    int fatigue, atack, defense;
+public class Questao {
     
-    char[] faceTo = {'N','S','E','W'};
-     
-    public void pass(){
-        
-    }
-    
-    public void shoot(){
-        
-    }
 }

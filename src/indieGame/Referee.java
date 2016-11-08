@@ -8,17 +8,7 @@ package indieGame;
 /**
  *
  * @author UserPL022Pc11
- */
-public class Player extends SensibleDummy{
-    int fatigue, atack, defense;
-    
-    char[] faceTo = {'N','S','E','W'};
-     
-    public void pass(){
-        
-    }
-    
-    public void shoot(){
-        
-    }
+ */ 
+public class Referee extends SensibleDummy{
+    int strickness;
 }
